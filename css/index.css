@@ -1,6 +1,9 @@
+body{background-color:#f5f5f5;}
 .w{width:1190px;margin:0 auto;}
-a{text-decoration:none;color:#6c6c6c;}
+a{text-decoration:none;color:#6c6c6c;font-size:12px;}
 .clearfix::before,.clearfix::after{content:"";display:table;clear:both;}
+
+/*header*/
 .header-wrapper{background-color:#f5f5f5;color:#6c6c6c; border-bottom:1px solid #eee;}
 .header{height:35px;line-height:35px;font-size:
 14px;}
@@ -16,3 +19,25 @@ a{text-decoration:none;color:#6c6c6c;}
 .header .head-right li .icon.light{color:red;}
 .header .head-right li .arrow{margin:0 10px;}
 .header .head-right li a{float:left;}
+
+/*topbar*/
+.topbar-wrapper{background-color:#fff;height:164px;}
+.topbar{position:relative;}
+.topbar .logo{float:left;margin:38px 0 0 22px;height:58px;overflow:hidden;}
+.topbar .logo a,.topbar .logo img{display:block;}
+.topbar .con{float:left;margin:30px 0 0 100px;}
+.topbar .con-top li{float:left;width:50px;height:25px;line-height:25px;color:#f40;font-size:12px;text-align:center;cursor:pointer;}
+.topbar .con-top li:hover{background-color:#ffeee5;}
+.topbar .con-top li.active{background-color:red;font-weight:bold;color:#fff;}.topbar .con-top li.active{background-color:red;font-weight:bold;color:#fff;}
+.topbar .search{background:url(../img/q.png) no-repeat 13px center;float:left;background-color:#fff;border:3px solid #f50;border-right:none;width:468px;padding:0 0 0 32px;height:34px;outline:none;}
+.topbar .button{border:none;height:40px;width:122px;background-color:red;color:#fff;font-size:18px;text-align:center;line-height:40px;float:left;outline:none;}
+.topbar .gao{float:left;width:25px;margin-left:9px;line-height:18px;}
+.topbar .gao:hover{color:#f50;}
+.topbar .con-bottom li{float:left;margin-right:9px;}
+.topbar .con-bottom li.last{margin:0 0 0 70px;}
+.topbar .con-bottom li a{display:block;height:36px;line-height:36px;}
+.topbar .con-bottom li a.light,.topbar .con-bottom li a:hover{color:#f50;}
+.topbar .qr{width:94px;height:112px;border:1px solid #eee;position:absolute;right:0;top:33px;text-align:center;}
+.topbar .qr h2{color:#f40;font-weight:bold;font-size:14px;}
+.topbar .qr img{margin:4px auto 0;}
+.topbar .qr .close{position:absolute;border:1px solid #eee;right:94px;top:-1px;;width:18px;height:18px;color:#6c6c6c;cursor:pointer;}
