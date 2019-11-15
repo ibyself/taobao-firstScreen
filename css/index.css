@@ -8,10 +8,11 @@ a{text-decoration:none;color:#6c6c6c;font-size:12px;}
 .header{height:35px;line-height:35px;font-size:
 14px;}
 .header .head-left{float:left;}
-.header .head-left li{float:left;margin-right:10px;height:35px;}
+.header .head-left li{float:left;height:35px;}
+.header .head-left li a.two{margin:0 22px 0 5px;}
 .header .head-left li a{display:block;}
 .header li a:hover,.header li a:hover .icon{color:red;}
-.header .head-left li .light{color:red;margin:0 10px 0 6px;}
+.header .head-left li a.light{color:red;margin-left:6px;}
 .header .head-right{float:right;}
 .header .head-right li{float:left;height:35px;line-height:35px;}
 .header .head-right li i{float:left;height:35px;line-height:35px}
@@ -38,6 +39,21 @@ a{text-decoration:none;color:#6c6c6c;font-size:12px;}
 .topbar .con-bottom li a{display:block;height:36px;line-height:36px;}
 .topbar .con-bottom li a.light,.topbar .con-bottom li a:hover{color:#f50;}
 .topbar .qr{width:94px;height:112px;border:1px solid #eee;position:absolute;right:0;top:33px;text-align:center;}
-.topbar .qr h2{color:#f40;font-weight:bold;font-size:14px;}
+.topbar .qr h2{color:#f40;font-weight:bold;font-size:14px;line-height:18px;height:18px;}
 .topbar .qr img{margin:4px auto 0;}
 .topbar .qr .close{position:absolute;border:1px solid #eee;right:94px;top:-1px;;width:18px;height:18px;color:#6c6c6c;cursor:pointer;}
+
+/* main */
+.main{height:555px;}
+.main .main-left{float:left;width:190px;background-color:#ff772c;}
+.main a,.main i,.main span{color:#fff6e7;font-size:13px;}
+.main-left .l-top{padding:0 9px;display:block;height:33px;line-height:33px;}
+.main-left .l-top a{display:block;position:relative;}
+.main-left .l-top a i{position:absolute;right:0;top:50%;margin-top:-7px;}
+.main-left .l-list li{height:30px;padding:0 9px;line-height:30px;position:relative;}
+.main-left .l-list li:hover{background-color:#F94A14;}
+.main-left .l-list li a:hover{text-decoration:underline;}
+.main-left .l-list .l-icon{opacity:.5;width:13px;height:13px;margin-right:5px;}
+.main-left .l-list .r-icon{position:absolute;right:9px;top:50%;margin-top:-4px;}
+.main-left img{display:block;width:100%;}
+.main .main-right{width:990px;height:100%;float:left;background-color:red;margin-left:10px;}
